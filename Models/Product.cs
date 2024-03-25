@@ -4,6 +4,7 @@ using System.Numerics;
 
 namespace SuperMarket.Models
 {
+ 
     public class Product
     {
         [Key]
