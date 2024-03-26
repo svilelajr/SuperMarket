@@ -10,7 +10,8 @@
 <p>
     <a asp-page="Create">Create New</a>
 </p>
-<table class="table">
+
+<table class="table" id="reportContent">
     <thead>
         <tr>
             <th>
@@ -42,8 +43,8 @@
                     @Html.DisplayFor(modelItem => item.Quantity)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Description)
-                </td>
+                    @Html.DisplayFor(modelItem => item.Description)                
+                </td>                
                 <td>
                     <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
                     <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
@@ -56,39 +57,23 @@
 
 <button id="btnGerarPDF">Gerar PDF</button>
 
-
 @section Scripts {
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/lib/html2pdf.js/html2pdf.bundle.min.js"></script>
+
     <script>
-        $(document).ready(function () {
-            $("#btnGerarPDF").click(function () {
-                // Enviar uma solicitação para o servidor para gerar o PDF
-                $.ajax({
-                    url: '/Products/Index?handler=GeneratePdf',
-                    method: 'GET',
-                    xhrFields: {
-                        responseType: 'arraybuffer' // Define o tipo de resposta como arraybuffer
-                    },
-                    success: function (data) {
-                        // Criar um Blob a partir dos dados recebidos
-                        var blob = new Blob([data], { type: 'application/pdf' });
-                        // Criar um URL para o blob
-                        var url = window.URL.createObjectURL(blob);
-                        // Criar um link e clicar nele para iniciar o download do PDF
-                        var a = document.createElement('a');
-                        a.href = url;
-                        a.download = 'lista_produtos.pdf';
-                        document.body.appendChild(a);
-                        a.click();
-                        // Remover o link após o download ser concluído
-                        window.URL.revokeObjectURL(url);
-                    },
-                    error: function (xhr, status, error) {
-                        console.error('Erro ao gerar o PDF:', error);
-                        // Lidar com erros, por exemplo, exibir uma mensagem de erro na página
-                    }
-                });
-            });
+        const btnGenerate = document.querySelector("#btnGerarPDF");
+
+        btnGenerate.addEventListener("click", () => {
+            const content = document.querySelector("#reportContent");
+
+            const options = {
+                margin: [10, 10, 10, 10],
+                filename: "lista_produtos.pdf",
+                html2canvas: { scale: 2 },
+                jsPDF: { unit: "mm", format: "a4", orientation: "portrait" }
+            };
+
+            html2pdf().set(options).from(content).save();
         });
     </script>
 }

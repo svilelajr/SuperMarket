@@ -1,0 +1,1048 @@
+2024-03-26 00:23:24.767 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 00:23:24.860 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 00:23:24.862 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 00:23:24.862 -03:00 [INF] Hosting environment: Development
+2024-03-26 00:23:24.863 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 00:23:25.153 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:23:25.194 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 00:23:25.211 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:23:25.229 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:23:25.283 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:23:25.622 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:23:25.630 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:23:25.632 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:23:25.632 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:23:25.688 -03:00 [INF] Executed page /Products/Index in 456.5429ms
+2024-03-26 00:23:25.689 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:23:25.693 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:23:25.695 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 542.9772ms
+2024-03-26 00:23:25.695 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.5929ms
+2024-03-26 00:23:25.697 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:23:25.712 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.9986ms
+2024-03-26 00:24:33.319 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:24:33.324 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:24:33.325 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:24:33.328 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:24:33.335 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:24:33.338 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:24:33.339 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:24:33.340 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:24:33.346 -03:00 [INF] Executed page /Products/Index in 19.7944ms
+2024-03-26 00:24:33.348 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:24:33.349 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 30.3901ms
+2024-03-26 00:24:33.355 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:24:33.355 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:24:33.356 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.2741ms
+2024-03-26 00:24:33.363 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.5216ms
+2024-03-26 00:24:57.501 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products/Create - -
+2024-03-26 00:24:57.508 -03:00 [INF] Executing endpoint '/Products/Create'
+2024-03-26 00:24:57.517 -03:00 [INF] Route matched with {page = "/Products/Create", area = ""}. Executing page /Products/Create
+2024-03-26 00:24:57.523 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.CreateModel.OnGet - ModelState is "Valid"
+2024-03-26 00:24:57.525 -03:00 [INF] Executed handler method OnGet, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:24:57.556 -03:00 [INF] Executed page /Products/Create in 37.5729ms
+2024-03-26 00:24:57.557 -03:00 [INF] Executed endpoint '/Products/Create'
+2024-03-26 00:24:57.558 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products/Create - - - 200 - text/html;+charset=utf-8 56.3134ms
+2024-03-26 00:24:57.566 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:24:57.566 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:24:57.569 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 2.5660ms
+2024-03-26 00:24:57.571 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.6260ms
+2024-03-26 00:25:07.727 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5024/Products/Create application/x-www-form-urlencoded 291
+2024-03-26 00:25:07.731 -03:00 [INF] Executing endpoint '/Products/Create'
+2024-03-26 00:25:07.732 -03:00 [INF] Route matched with {page = "/Products/Create", area = ""}. Executing page /Products/Create
+2024-03-26 00:25:07.752 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.CreateModel.OnPostAsync - ModelState is "Valid"
+2024-03-26 00:25:07.855 -03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 5), @p1='?' (Size = 5), @p2='?' (DbType = Decimal), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Description", "Name", "Price", "Quantity")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-03-26 00:25:07.871 -03:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2024-03-26 00:25:07.873 -03:00 [INF] Executing RedirectToPageResult, redirecting to ./Index.
+2024-03-26 00:25:07.874 -03:00 [INF] Executed page /Products/Create in 140.7464ms
+2024-03-26 00:25:07.876 -03:00 [INF] Executed endpoint '/Products/Create'
+2024-03-26 00:25:07.876 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5024/Products/Create application/x-www-form-urlencoded 291 - 302 0 - 149.3457ms
+2024-03-26 00:25:07.879 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:25:07.881 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:25:07.882 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:25:07.883 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:25:07.884 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:25:07.889 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:25:07.890 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:25:07.890 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:25:07.897 -03:00 [INF] Executed page /Products/Index in 14.002ms
+2024-03-26 00:25:07.898 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:25:07.899 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 20.3904ms
+2024-03-26 00:25:07.908 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:25:07.911 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:25:07.912 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.8990ms
+2024-03-26 00:25:07.912 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.3114ms
+2024-03-26 00:29:17.466 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 00:29:17.555 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 00:29:17.557 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 00:29:17.558 -03:00 [INF] Hosting environment: Development
+2024-03-26 00:29:17.559 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 00:29:17.871 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:29:17.907 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 00:29:17.924 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:29:17.941 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:29:17.997 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:29:18.325 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:29:18.351 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:29:18.353 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:29:18.353 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:29:18.413 -03:00 [INF] Executed page /Products/Index in 470.3499ms
+2024-03-26 00:29:18.416 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:29:18.420 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:29:18.423 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 553.0140ms
+2024-03-26 00:29:18.425 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:29:18.427 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.7934ms
+2024-03-26 00:29:18.436 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.5604ms
+2024-03-26 00:29:37.082 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:29:37.090 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:29:37.091 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:29:37.093 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:29:37.105 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:29:37.110 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:29:37.111 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:29:37.113 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:29:37.128 -03:00 [INF] Executed page /Products/Index in 35.4846ms
+2024-03-26 00:29:37.129 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:29:37.131 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 49.3037ms
+2024-03-26 00:29:37.136 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:29:37.137 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:29:37.139 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 2.2661ms
+2024-03-26 00:29:37.147 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.1814ms
+2024-03-26 00:29:38.047 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:29:38.051 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:29:38.052 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:29:38.054 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:29:38.100 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:29:38.102 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:29:38.103 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:29:38.103 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:29:38.112 -03:00 [INF] Executed page /Products/Index in 59.3404ms
+2024-03-26 00:29:38.113 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:29:38.114 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 66.6696ms
+2024-03-26 00:29:38.120 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:29:38.121 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:29:38.122 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.0901ms
+2024-03-26 00:29:38.124 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.9462ms
+2024-03-26 00:29:38.406 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:29:38.407 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:29:38.409 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:29:38.410 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:29:38.411 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:29:38.413 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:29:38.414 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:29:38.414 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:29:38.418 -03:00 [INF] Executed page /Products/Index in 8.2573ms
+2024-03-26 00:29:38.419 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:29:38.421 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 15.3274ms
+2024-03-26 00:29:38.428 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:29:38.429 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:29:38.430 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.5949ms
+2024-03-26 00:29:38.432 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.8075ms
+2024-03-26 00:29:38.601 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:29:38.607 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:29:38.609 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:29:38.611 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:29:38.613 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:29:38.616 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:29:38.617 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:29:38.618 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:29:38.624 -03:00 [INF] Executed page /Products/Index in 13.8716ms
+2024-03-26 00:29:38.626 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:29:38.628 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 26.5782ms
+2024-03-26 00:29:38.633 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:29:38.634 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:29:38.635 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.3412ms
+2024-03-26 00:29:38.638 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.0380ms
+2024-03-26 00:29:38.774 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:29:38.778 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:29:38.779 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:29:38.780 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:29:38.781 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:29:38.783 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:29:38.784 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:29:38.785 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:29:38.789 -03:00 [INF] Executed page /Products/Index in 9.6888ms
+2024-03-26 00:29:38.791 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:29:38.791 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 16.8550ms
+2024-03-26 00:29:38.800 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:29:38.800 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:29:38.802 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.6289ms
+2024-03-26 00:29:38.805 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.6010ms
+2024-03-26 00:29:38.948 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:29:38.951 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:29:38.952 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:29:38.953 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:29:38.955 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:29:38.956 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:29:38.957 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:29:38.958 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:29:38.960 -03:00 [INF] Executed page /Products/Index in 7.411ms
+2024-03-26 00:29:38.963 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:29:38.964 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 15.4056ms
+2024-03-26 00:29:38.968 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:29:38.970 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:29:38.972 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.9321ms
+2024-03-26 00:29:38.974 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.1433ms
+2024-03-26 00:29:39.100 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:29:39.106 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:29:39.107 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:29:39.108 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:29:39.110 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:29:39.112 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:29:39.113 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:29:39.114 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:29:39.120 -03:00 [INF] Executed page /Products/Index in 12.3886ms
+2024-03-26 00:29:39.122 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:29:39.123 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 23.3553ms
+2024-03-26 00:29:39.131 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:29:39.131 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:29:39.134 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 2.5794ms
+2024-03-26 00:29:39.136 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.5335ms
+2024-03-26 00:30:33.354 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 00:30:33.441 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 00:30:33.443 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 00:30:33.444 -03:00 [INF] Hosting environment: Development
+2024-03-26 00:30:33.444 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 00:30:33.863 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:30:33.900 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 00:30:33.918 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:30:33.936 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:30:33.992 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:30:34.335 -03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:30:34.374 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:30:34.378 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:30:34.379 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:30:34.441 -03:00 [INF] Executed page /Products/Index in 503.2648ms
+2024-03-26 00:30:34.443 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:30:34.449 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 587.2595ms
+2024-03-26 00:30:34.450 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:30:34.452 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:30:34.453 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 2.9529ms
+2024-03-26 00:30:34.469 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.4596ms
+2024-03-26 00:31:32.352 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 00:31:32.441 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 00:31:32.443 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 00:31:32.443 -03:00 [INF] Hosting environment: Development
+2024-03-26 00:31:32.444 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 00:31:32.862 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:31:32.898 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 00:31:32.914 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:31:32.931 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:31:32.986 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:31:33.328 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:31:33.354 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:31:33.356 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:31:33.357 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:31:33.419 -03:00 [INF] Executed page /Products/Index in 484.5232ms
+2024-03-26 00:31:33.421 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:31:33.427 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:31:33.427 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 567.0853ms
+2024-03-26 00:31:33.429 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 2.2152ms
+2024-03-26 00:31:33.430 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:31:33.445 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.7178ms
+2024-03-26 00:31:43.555 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 00:31:43.644 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 00:31:43.647 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 00:31:43.647 -03:00 [INF] Hosting environment: Development
+2024-03-26 00:31:43.648 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 00:31:43.981 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:31:44.017 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 00:31:44.035 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:31:44.052 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:31:44.108 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:31:44.453 -03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:31:44.480 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:31:44.482 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:31:44.483 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:31:44.546 -03:00 [INF] Executed page /Products/Index in 491.433ms
+2024-03-26 00:31:44.548 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:31:44.552 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:31:44.554 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 574.2198ms
+2024-03-26 00:31:44.554 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.8977ms
+2024-03-26 00:31:44.556 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:31:44.570 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.0189ms
+2024-03-26 00:32:12.630 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 00:32:12.641 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 00:32:12.649 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 00:32:12.652 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 00:32:12.654 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 00:32:12.655 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:32:12.655 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:32:12.662 -03:00 [INF] Executed page /Index in 11.4363ms
+2024-03-26 00:32:12.665 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 00:32:12.668 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 38.1905ms
+2024-03-26 00:32:12.677 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:32:12.677 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:32:12.680 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 2.5214ms
+2024-03-26 00:32:12.696 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.1423ms
+2024-03-26 00:32:13.315 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 00:32:13.322 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 00:32:13.324 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 00:32:13.326 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 00:32:13.328 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 00:32:13.329 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:32:13.330 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:32:13.346 -03:00 [INF] Executed page /Index in 20.1489ms
+2024-03-26 00:32:13.348 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 00:32:13.350 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 34.5323ms
+2024-03-26 00:32:13.361 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:32:13.362 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:32:13.363 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 0.9338ms
+2024-03-26 00:32:13.366 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.3738ms
+2024-03-26 00:32:13.710 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 00:32:13.715 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 00:32:13.717 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 00:32:13.719 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 00:32:13.721 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 00:32:13.723 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:32:13.724 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:32:13.728 -03:00 [INF] Executed page /Index in 9.0887ms
+2024-03-26 00:32:13.730 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 00:32:13.731 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 21.2671ms
+2024-03-26 00:32:13.741 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:32:13.741 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:32:13.743 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.8442ms
+2024-03-26 00:32:13.745 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.0304ms
+2024-03-26 00:32:13.882 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 00:32:13.885 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 00:32:13.887 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 00:32:13.888 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 00:32:13.890 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 00:32:13.891 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:32:13.892 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:32:13.895 -03:00 [INF] Executed page /Index in 6.6144ms
+2024-03-26 00:32:13.896 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 00:32:13.897 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 15.1965ms
+2024-03-26 00:32:13.904 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:32:13.905 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:32:13.906 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.3624ms
+2024-03-26 00:32:13.909 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.8643ms
+2024-03-26 00:32:14.048 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 00:32:14.052 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 00:32:14.053 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 00:32:14.054 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 00:32:14.055 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 00:32:14.056 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:32:14.057 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:32:14.059 -03:00 [INF] Executed page /Index in 4.7329ms
+2024-03-26 00:32:14.060 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 00:32:14.061 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 13.3168ms
+2024-03-26 00:32:14.068 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:32:14.068 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:32:14.070 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.2574ms
+2024-03-26 00:32:14.073 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.5204ms
+2024-03-26 00:32:15.028 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:32:15.033 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:32:15.035 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:32:15.037 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:32:15.059 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:32:15.064 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:32:15.065 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:32:15.066 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:32:15.072 -03:00 [INF] Executed page /Products/Index in 34.9478ms
+2024-03-26 00:32:15.072 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:32:15.074 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 45.7961ms
+2024-03-26 00:32:15.081 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:32:15.081 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:32:15.082 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.1669ms
+2024-03-26 00:32:15.085 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.3663ms
+2024-03-26 00:32:51.169 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 00:32:51.259 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 00:32:51.261 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 00:32:51.262 -03:00 [INF] Hosting environment: Development
+2024-03-26 00:32:51.263 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 00:32:51.684 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:32:51.722 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 00:32:51.739 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:32:51.756 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:32:51.814 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:32:52.155 -03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:32:52.188 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:32:52.191 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:32:52.192 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:32:52.256 -03:00 [INF] Executed page /Products/Index in 496.752ms
+2024-03-26 00:32:52.264 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:32:52.265 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:32:52.265 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:32:52.270 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 4.3191ms
+2024-03-26 00:32:52.272 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 589.8254ms
+2024-03-26 00:32:52.283 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.6846ms
+2024-03-26 00:38:13.891 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 00:38:14.050 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 00:38:14.052 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 00:38:14.052 -03:00 [INF] Hosting environment: Development
+2024-03-26 00:38:14.053 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 00:38:14.695 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 00:38:14.833 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 00:38:14.881 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 00:38:14.969 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 00:38:14.980 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 00:38:14.985 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 00:38:14.989 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:38:14.990 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:38:15.160 -03:00 [INF] Executed page /Index in 187.1976ms
+2024-03-26 00:38:15.163 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 00:38:15.166 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:38:15.169 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 476.9332ms
+2024-03-26 00:38:15.169 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 3.0517ms
+2024-03-26 00:38:15.171 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:38:15.198 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.4383ms
+2024-03-26 00:38:18.534 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:38:18.541 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:38:18.546 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:38:18.550 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:38:18.961 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:38:18.994 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:38:18.996 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:38:18.997 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:38:19.017 -03:00 [INF] Executed page /Products/Index in 469.8812ms
+2024-03-26 00:38:19.018 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:38:19.022 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 488.1611ms
+2024-03-26 00:38:19.026 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:38:19.026 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:38:19.028 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.6373ms
+2024-03-26 00:38:19.035 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.8743ms
+2024-03-26 00:40:08.610 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:40:08.618 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:40:08.619 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:40:08.620 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:40:08.634 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:40:08.637 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:40:08.638 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:40:08.638 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:40:08.646 -03:00 [INF] Executed page /Products/Index in 26.0349ms
+2024-03-26 00:40:08.648 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:40:08.649 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 38.5562ms
+2024-03-26 00:40:08.655 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:40:08.655 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:40:08.664 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 8.5135ms
+2024-03-26 00:40:08.675 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.0565ms
+2024-03-26 00:40:09.134 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:40:09.137 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:40:09.138 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:40:09.140 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:40:09.173 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:40:09.174 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:40:09.175 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:40:09.175 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:40:09.180 -03:00 [INF] Executed page /Products/Index in 41.1383ms
+2024-03-26 00:40:09.183 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:40:09.185 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 50.3684ms
+2024-03-26 00:40:09.189 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:40:09.189 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:40:09.192 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 2.9236ms
+2024-03-26 00:40:09.196 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 6.0896ms
+2024-03-26 00:40:09.732 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:40:09.735 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:40:09.738 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:40:09.740 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:40:09.741 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:40:09.744 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:40:09.745 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:40:09.745 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:40:09.750 -03:00 [INF] Executed page /Products/Index in 11.337ms
+2024-03-26 00:40:09.751 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:40:09.753 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 20.7990ms
+2024-03-26 00:40:09.760 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:40:09.760 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:40:09.764 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 3.8324ms
+2024-03-26 00:40:09.765 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5.1530ms
+2024-03-26 00:41:19.358 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 00:41:19.442 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 00:41:19.444 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 00:41:19.445 -03:00 [INF] Hosting environment: Development
+2024-03-26 00:41:19.445 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 00:41:19.743 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 00:41:19.787 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 00:41:19.804 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 00:41:19.822 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 00:41:19.827 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 00:41:19.830 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 00:41:19.832 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:41:19.833 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:41:19.938 -03:00 [INF] Executed page /Index in 113.4375ms
+2024-03-26 00:41:19.941 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 00:41:19.944 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:41:19.944 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:41:19.946 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 205.2293ms
+2024-03-26 00:41:19.953 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 8.8019ms
+2024-03-26 00:41:19.967 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.9651ms
+2024-03-26 00:45:29.273 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 00:45:29.366 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 00:45:29.368 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 00:45:29.369 -03:00 [INF] Hosting environment: Development
+2024-03-26 00:45:29.370 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 00:45:29.610 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 00:45:29.665 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 00:45:29.687 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 00:45:29.714 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 00:45:29.724 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 00:45:29.731 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 00:45:29.737 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:45:29.740 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:45:29.972 -03:00 [INF] Executed page /Index in 251.4512ms
+2024-03-26 00:45:29.976 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 00:45:29.983 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 374.9226ms
+2024-03-26 00:45:29.996 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:45:29.999 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 3.2889ms
+2024-03-26 00:45:30.000 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:45:30.021 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.1241ms
+2024-03-26 00:45:39.571 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 00:45:39.579 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 00:45:39.580 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 00:45:39.582 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 00:45:39.583 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 00:45:39.585 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:45:39.586 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:45:39.601 -03:00 [INF] Executed page /Index in 19.6643ms
+2024-03-26 00:45:39.603 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 00:45:39.605 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 33.7840ms
+2024-03-26 00:45:39.613 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:45:39.613 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:45:39.615 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.9135ms
+2024-03-26 00:45:39.626 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.2409ms
+2024-03-26 00:45:42.820 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:45:42.830 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:45:42.837 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:45:42.840 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:45:43.271 -03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:45:43.306 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:45:43.307 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:45:43.308 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:45:43.328 -03:00 [INF] Executed page /Products/Index in 488.9432ms
+2024-03-26 00:45:43.329 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:45:43.335 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 514.0537ms
+2024-03-26 00:45:43.339 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:45:43.339 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:45:43.341 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.6038ms
+2024-03-26 00:45:43.344 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.9644ms
+2024-03-26 00:51:32.295 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 00:51:32.382 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 00:51:32.385 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 00:51:32.387 -03:00 [INF] Hosting environment: Development
+2024-03-26 00:51:32.388 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 00:51:32.742 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:51:32.779 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 00:51:32.795 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:51:32.813 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:51:32.866 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:51:33.190 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:51:33.217 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:51:33.219 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:51:33.220 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:51:33.280 -03:00 [INF] Executed page /Products/Index in 464.9449ms
+2024-03-26 00:51:33.283 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:51:33.287 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:51:33.289 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.8702ms
+2024-03-26 00:51:33.289 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 547.5394ms
+2024-03-26 00:51:33.291 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:51:33.307 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.1418ms
+2024-03-26 00:51:42.734 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:51:42.742 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:51:42.744 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:51:42.747 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:51:42.759 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:51:42.762 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:51:42.763 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:51:42.764 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:51:42.772 -03:00 [INF] Executed page /Products/Index in 27.2052ms
+2024-03-26 00:51:42.774 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:51:42.776 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 42.2278ms
+2024-03-26 00:51:42.784 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:51:42.784 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:51:42.786 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.7265ms
+2024-03-26 00:51:42.796 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.7754ms
+2024-03-26 00:53:24.468 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 00:53:24.619 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 00:53:24.621 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 00:53:24.622 -03:00 [INF] Hosting environment: Development
+2024-03-26 00:53:24.623 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 00:53:24.935 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 00:53:25.035 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 00:53:25.063 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 00:53:25.107 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 00:53:25.118 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 00:53:25.122 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 00:53:25.124 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:53:25.125 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:53:25.276 -03:00 [INF] Executed page /Index in 165.0497ms
+2024-03-26 00:53:25.279 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 00:53:25.282 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:53:25.282 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:53:25.285 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 352.0031ms
+2024-03-26 00:53:25.286 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 4.3870ms
+2024-03-26 00:53:25.311 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.2975ms
+2024-03-26 00:53:27.646 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:53:27.654 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:53:27.657 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:53:27.662 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:53:28.085 -03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:53:28.122 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:53:28.124 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:53:28.125 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:53:28.148 -03:00 [INF] Executed page /Products/Index in 490.0114ms
+2024-03-26 00:53:28.150 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:53:28.156 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 509.5700ms
+2024-03-26 00:53:28.158 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:53:28.158 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:53:28.160 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.8293ms
+2024-03-26 00:53:28.172 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.7458ms
+2024-03-26 00:58:32.387 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 00:58:32.474 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 00:58:32.477 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 00:58:32.478 -03:00 [INF] Hosting environment: Development
+2024-03-26 00:58:32.479 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 00:58:32.804 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 00:58:32.852 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 00:58:32.872 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 00:58:32.894 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 00:58:32.899 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 00:58:32.902 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 00:58:32.905 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:58:32.908 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:58:33.020 -03:00 [INF] Executed page /Index in 123.7633ms
+2024-03-26 00:58:33.026 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 00:58:33.027 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:58:33.029 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:58:33.032 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 4.3538ms
+2024-03-26 00:58:33.033 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 230.4636ms
+2024-03-26 00:58:33.047 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.2281ms
+2024-03-26 00:59:18.433 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 00:59:18.442 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 00:59:18.448 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 00:59:18.460 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 00:59:18.902 -03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 00:59:18.949 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 00:59:18.950 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 00:59:18.950 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 00:59:18.974 -03:00 [INF] Executed page /Products/Index in 517.8909ms
+2024-03-26 00:59:18.976 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 00:59:18.982 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 549.4100ms
+2024-03-26 00:59:18.985 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/html2pdf.js/ - -
+2024-03-26 00:59:18.986 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 00:59:18.986 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 00:59:18.988 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 2.4117ms
+2024-03-26 00:59:18.991 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/html2pdf.js/ - - - 404 0 - 5.7246ms
+2024-03-26 00:59:18.997 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.6213ms
+2024-03-26 01:00:28.904 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 01:00:28.987 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 01:00:28.990 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 01:00:28.990 -03:00 [INF] Hosting environment: Development
+2024-03-26 01:00:28.991 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 01:00:29.359 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 01:00:29.450 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 01:00:29.486 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 01:00:29.538 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 01:00:29.548 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 01:00:29.551 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 01:00:29.554 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:00:29.555 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:00:29.666 -03:00 [INF] Executed page /Index in 123.8862ms
+2024-03-26 01:00:29.672 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:00:29.683 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:00:29.687 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 01:00:29.688 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 16.2958ms
+2024-03-26 01:00:29.691 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 333.8028ms
+2024-03-26 01:00:29.704 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.0191ms
+2024-03-26 01:00:33.237 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:00:33.244 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:00:33.247 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:00:33.252 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:00:33.585 -03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:00:33.613 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:00:33.614 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:00:33.614 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:00:33.630 -03:00 [INF] Executed page /Products/Index in 382.1548ms
+2024-03-26 01:00:33.632 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:00:33.637 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 399.5661ms
+2024-03-26 01:00:33.641 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:00:33.641 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:00:33.643 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/html2pdf.js/html2pdf.bundle.min.js - -
+2024-03-26 01:00:33.647 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 6.1694ms
+2024-03-26 01:00:33.653 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.2430ms
+2024-03-26 01:00:33.799 -03:00 [INF] Sending file. Request path: '/lib/html2pdf.js/html2pdf.bundle.min.js'. Physical path: 'C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket\wwwroot\lib\html2pdf.js\html2pdf.bundle.min.js'
+2024-03-26 01:00:33.803 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/html2pdf.js/html2pdf.bundle.min.js - - - 200 905956 text/javascript 160.3617ms
+2024-03-26 01:00:33.838 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/html2pdf.js/html2pdf.bundle.min.js.map - -
+2024-03-26 01:00:33.882 -03:00 [INF] Sending file. Request path: '/lib/html2pdf.js/html2pdf.bundle.min.js.map'. Physical path: 'C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket\wwwroot\lib\html2pdf.js\html2pdf.bundle.min.js.map'
+2024-03-26 01:00:33.884 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/html2pdf.js/html2pdf.bundle.min.js.map - - - 200 2751773 text/plain 46.5086ms
+2024-03-26 01:09:50.547 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 01:09:51.024 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 01:09:51.027 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 01:09:51.027 -03:00 [INF] Hosting environment: Development
+2024-03-26 01:09:51.028 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 01:09:51.179 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:09:51.318 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 01:09:51.342 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:09:51.419 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:09:51.690 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:09:52.576 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:09:52.612 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:09:52.616 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:09:52.617 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:09:52.765 -03:00 [INF] Executed page /Products/Index in 1340.9973ms
+2024-03-26 01:09:52.770 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:09:52.786 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 1608.1224ms
+2024-03-26 01:09:52.794 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:09:52.794 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/html2pdf.js/html2pdf.bundle.min.js - -
+2024-03-26 01:09:52.794 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:09:52.800 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 6.4535ms
+2024-03-26 01:09:52.815 -03:00 [INF] The file /lib/html2pdf.js/html2pdf.bundle.min.js was not modified
+2024-03-26 01:09:52.820 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/html2pdf.js/html2pdf.bundle.min.js - - - 304 - text/javascript 26.4727ms
+2024-03-26 01:09:52.843 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.1319ms
+2024-03-26 01:09:52.949 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/html2pdf.js/html2pdf.bundle.min.js.map - -
+2024-03-26 01:09:52.954 -03:00 [INF] The file /lib/html2pdf.js/html2pdf.bundle.min.js.map was not modified
+2024-03-26 01:09:52.958 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/html2pdf.js/html2pdf.bundle.min.js.map - - - 304 - text/plain 9.3231ms
+2024-03-26 01:09:56.857 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:09:56.863 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:09:56.864 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:09:56.866 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:09:56.872 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:09:56.877 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:09:56.879 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:09:56.879 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:09:56.885 -03:00 [INF] Executed page /Products/Index in 19.5706ms
+2024-03-26 01:09:56.886 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:09:56.888 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 31.3096ms
+2024-03-26 01:09:56.896 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:09:56.898 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:09:56.900 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 2.0298ms
+2024-03-26 01:09:56.904 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 8.0673ms
+2024-03-26 01:09:57.671 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:09:57.676 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:09:57.679 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:09:57.681 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:09:57.712 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:09:57.714 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:09:57.716 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:09:57.717 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:09:57.724 -03:00 [INF] Executed page /Products/Index in 43.7292ms
+2024-03-26 01:09:57.725 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:09:57.726 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 55.2078ms
+2024-03-26 01:09:57.735 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:09:57.736 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:09:57.738 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 2.5017ms
+2024-03-26 01:09:57.743 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.4765ms
+2024-03-26 01:09:57.906 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:09:57.908 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:09:57.909 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:09:57.910 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:09:57.912 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:09:57.914 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:09:57.915 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:09:57.916 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:09:57.920 -03:00 [INF] Executed page /Products/Index in 10.0564ms
+2024-03-26 01:09:57.922 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:09:57.923 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 17.1478ms
+2024-03-26 01:09:57.931 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:09:57.931 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:09:57.934 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 2.2982ms
+2024-03-26 01:09:57.936 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.9849ms
+2024-03-26 01:09:57.994 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:09:57.998 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:09:58.000 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:09:58.002 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:09:58.005 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:09:58.007 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:09:58.008 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:09:58.009 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:09:58.012 -03:00 [INF] Executed page /Products/Index in 10.9145ms
+2024-03-26 01:09:58.013 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:09:58.014 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 19.9131ms
+2024-03-26 01:09:58.022 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:09:58.022 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:09:58.023 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.1713ms
+2024-03-26 01:09:58.025 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2.9550ms
+2024-03-26 01:09:58.141 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:09:58.145 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:09:58.147 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:09:58.148 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:09:58.150 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:09:58.151 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:09:58.153 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:09:58.154 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:09:58.156 -03:00 [INF] Executed page /Products/Index in 8.9706ms
+2024-03-26 01:09:58.157 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:09:58.159 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 17.1394ms
+2024-03-26 01:09:58.168 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:09:58.169 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:09:58.170 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.3932ms
+2024-03-26 01:09:58.172 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.6344ms
+2024-03-26 01:09:58.275 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:09:58.278 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:09:58.280 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:09:58.281 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:09:58.283 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:09:58.285 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:09:58.286 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:09:58.286 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:09:58.290 -03:00 [INF] Executed page /Products/Index in 8.8293ms
+2024-03-26 01:09:58.291 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:09:58.292 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 17.5380ms
+2024-03-26 01:09:58.299 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:09:58.300 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:09:58.301 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.2913ms
+2024-03-26 01:09:58.304 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.9996ms
+2024-03-26 01:09:59.249 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:09:59.251 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:09:59.253 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:09:59.254 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:09:59.255 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:09:59.258 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:09:59.260 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:09:59.260 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:09:59.265 -03:00 [INF] Executed page /Products/Index in 11.0391ms
+2024-03-26 01:09:59.266 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:09:59.267 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 17.6790ms
+2024-03-26 01:09:59.275 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:09:59.275 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:09:59.277 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.8284ms
+2024-03-26 01:09:59.280 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.9570ms
+2024-03-26 01:09:59.439 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:09:59.441 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:09:59.442 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:09:59.443 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:09:59.446 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:09:59.448 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:09:59.450 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:09:59.450 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:09:59.455 -03:00 [INF] Executed page /Products/Index in 11.293ms
+2024-03-26 01:09:59.457 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:09:59.459 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 20.1780ms
+2024-03-26 01:09:59.464 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:09:59.465 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:09:59.466 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.6522ms
+2024-03-26 01:09:59.469 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.2889ms
+2024-03-26 01:09:59.610 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:09:59.612 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:09:59.614 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:09:59.615 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:09:59.618 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:09:59.621 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:09:59.622 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:09:59.622 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:09:59.626 -03:00 [INF] Executed page /Products/Index in 11.3345ms
+2024-03-26 01:09:59.627 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:09:59.629 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 18.7885ms
+2024-03-26 01:09:59.637 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:09:59.637 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:09:59.638 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 0.8695ms
+2024-03-26 01:09:59.640 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.2023ms
+2024-03-26 01:10:05.898 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products/Delete?id=4 - -
+2024-03-26 01:10:05.901 -03:00 [INF] Executing endpoint '/Products/Delete'
+2024-03-26 01:10:05.912 -03:00 [INF] Route matched with {page = "/Products/Delete", area = ""}. Executing page /Products/Delete
+2024-03-26 01:10:05.921 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.DeleteModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:10:05.969 -03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+WHERE "p"."Id" = @__id_0
+LIMIT 1
+2024-03-26 01:10:05.972 -03:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:10:05.989 -03:00 [INF] Executed page /Products/Delete in 76.347ms
+2024-03-26 01:10:05.990 -03:00 [INF] Executed endpoint '/Products/Delete'
+2024-03-26 01:10:05.991 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products/Delete?id=4 - - - 200 - text/html;+charset=utf-8 93.0110ms
+2024-03-26 01:10:06.007 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:10:06.009 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.2261ms
+2024-03-26 01:10:06.009 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:10:06.014 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.9816ms
+2024-03-26 01:10:07.934 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products/Delete?id=4 - -
+2024-03-26 01:10:07.937 -03:00 [INF] Executing endpoint '/Products/Delete'
+2024-03-26 01:10:07.939 -03:00 [INF] Route matched with {page = "/Products/Delete", area = ""}. Executing page /Products/Delete
+2024-03-26 01:10:07.942 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.DeleteModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:10:07.945 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+WHERE "p"."Id" = @__id_0
+LIMIT 1
+2024-03-26 01:10:07.947 -03:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:10:07.949 -03:00 [INF] Executed page /Products/Delete in 8.5255ms
+2024-03-26 01:10:07.950 -03:00 [INF] Executed endpoint '/Products/Delete'
+2024-03-26 01:10:07.951 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products/Delete?id=4 - - - 200 - text/html;+charset=utf-8 17.1517ms
+2024-03-26 01:10:07.960 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:10:07.960 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:10:07.962 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 2.3807ms
+2024-03-26 01:10:07.964 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.4640ms
+2024-03-26 01:10:49.532 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 01:10:49.682 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 01:10:49.685 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 01:10:49.686 -03:00 [INF] Hosting environment: Development
+2024-03-26 01:10:49.687 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 01:10:49.898 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 01:10:49.972 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 01:10:49.992 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 01:10:50.026 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 01:10:50.033 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 01:10:50.037 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 01:10:50.039 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:10:50.040 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:10:50.174 -03:00 [INF] Executed page /Index in 144.6736ms
+2024-03-26 01:10:50.176 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 01:10:50.180 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:10:50.180 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 284.8691ms
+2024-03-26 01:10:50.184 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:10:50.190 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 5.3392ms
+2024-03-26 01:10:50.242 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.9126ms
+2024-03-26 01:10:51.675 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:10:51.681 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:10:51.685 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:10:51.691 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:10:52.107 -03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:10:52.142 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:10:52.145 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:10:52.145 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:10:52.165 -03:00 [INF] Executed page /Products/Index in 478.0033ms
+2024-03-26 01:10:52.166 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:10:52.171 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 496.3592ms
+2024-03-26 01:10:52.174 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:10:52.174 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:10:52.175 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.3003ms
+2024-03-26 01:10:52.186 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 11.8261ms
+2024-03-26 01:11:41.362 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:11:41.367 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:11:41.372 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:11:41.374 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:11:41.388 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:11:41.391 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:11:41.392 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:11:41.393 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:11:41.409 -03:00 [INF] Executed page /Products/Index in 35.1649ms
+2024-03-26 01:11:41.409 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:11:41.411 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 48.9154ms
+2024-03-26 01:11:41.417 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:11:41.417 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:11:41.461 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 43.3198ms
+2024-03-26 01:11:41.463 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.0980ms
+2024-03-26 01:11:44.314 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:11:44.318 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:11:44.320 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:11:44.322 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:11:44.386 -03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:11:44.387 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:11:44.388 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:11:44.389 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:11:44.392 -03:00 [INF] Executed page /Products/Index in 71.5262ms
+2024-03-26 01:11:44.394 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:11:44.394 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 80.1834ms
+2024-03-26 01:11:44.400 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:11:44.400 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:11:44.402 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.4839ms
+2024-03-26 01:11:44.436 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.0313ms
+2024-03-26 01:19:33.283 -03:00 [INF] User profile is available. Using 'C:\Users\svile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-26 01:19:33.370 -03:00 [INF] Now listening on: http://localhost:5024
+2024-03-26 01:19:33.372 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-26 01:19:33.372 -03:00 [INF] Hosting environment: Development
+2024-03-26 01:19:33.373 -03:00 [INF] Content root path: C:\Users\svile\Documents\Estudos\RazorPages_PDF\SuperMarket
+2024-03-26 01:19:33.956 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/ - -
+2024-03-26 01:19:34.001 -03:00 [WRN] Failed to determine the https port for redirect.
+2024-03-26 01:19:34.020 -03:00 [INF] Executing endpoint '/Index'
+2024-03-26 01:19:34.037 -03:00 [INF] Route matched with {page = "/Index", area = ""}. Executing page /Index
+2024-03-26 01:19:34.042 -03:00 [INF] Executing handler method SuperMarket.Pages.IndexModel.OnGet - ModelState is "Valid"
+2024-03-26 01:19:34.044 -03:00 [INF] Executed handler method OnGet, returned result .
+2024-03-26 01:19:34.047 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:19:34.048 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:19:34.154 -03:00 [INF] Executed page /Index in 113.3573ms
+2024-03-26 01:19:34.155 -03:00 [INF] Executed endpoint '/Index'
+2024-03-26 01:19:34.159 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/ - - - 200 - text/html;+charset=utf-8 204.4982ms
+2024-03-26 01:19:34.162 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:19:34.163 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:19:34.164 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.6046ms
+2024-03-26 01:19:34.179 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.3333ms
+2024-03-26 01:19:36.155 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/Products - -
+2024-03-26 01:19:36.160 -03:00 [INF] Executing endpoint '/Products/Index'
+2024-03-26 01:19:36.164 -03:00 [INF] Route matched with {page = "/Products/Index", area = ""}. Executing page /Products/Index
+2024-03-26 01:19:36.169 -03:00 [INF] Executing handler method SuperMarket.Pages_Products.IndexModel.OnGetAsync - ModelState is "Valid"
+2024-03-26 01:19:36.538 -03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."Description", "p"."Name", "p"."Price", "p"."Quantity"
+FROM "Products" AS "p"
+2024-03-26 01:19:36.567 -03:00 [INF] Executed handler method OnGetAsync, returned result .
+2024-03-26 01:19:36.568 -03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-03-26 01:19:36.569 -03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-03-26 01:19:36.588 -03:00 [INF] Executed page /Products/Index in 422.5758ms
+2024-03-26 01:19:36.589 -03:00 [INF] Executed endpoint '/Products/Index'
+2024-03-26 01:19:36.593 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/Products - - - 200 - text/html;+charset=utf-8 437.7624ms
+2024-03-26 01:19:36.596 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/lib/html2pdf.js/html2pdf.bundle.min.js - -
+2024-03-26 01:19:36.597 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_vs/browserLink - -
+2024-03-26 01:19:36.597 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - -
+2024-03-26 01:19:36.598 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_framework/aspnetcore-browser-refresh.js - - - 200 13758 application/javascript;+charset=utf-8 1.1463ms
+2024-03-26 01:19:36.604 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 7.2141ms
+2024-03-26 01:19:36.607 -03:00 [INF] The file /lib/html2pdf.js/html2pdf.bundle.min.js was not modified
+2024-03-26 01:19:36.609 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5024/lib/html2pdf.js/html2pdf.bundle.min.js - - - 304 - text/javascript 12.5264ms

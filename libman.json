@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "pdf.js@4.0.379",
+      "destination": "wwwroot/lib/pdf.js/"
+    },
+    {
+      "library": "html2pdf.js@0.10.1",
+      "destination": "wwwroot/lib/html2pdf.js/"
+    }
+  ]
+}
